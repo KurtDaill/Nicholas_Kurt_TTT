@@ -1,5 +1,7 @@
 package kdaill_ncasello.tttbeta;
 
+import android.inputmethodservice.Keyboard;
+
 /**
  * Created by nicholas on 9/22/18.
  */
@@ -28,7 +30,7 @@ public class userinterface {
     android:padding="8dp"
             >
 
-        <!--Row 1-->
+        <!--Keyboard.Row 1-->
         <TableRow>
 
             <Button
