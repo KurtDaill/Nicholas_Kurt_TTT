@@ -7,7 +7,7 @@ package kdaill_ncasello.tttbeta;
 public class Grid
 {
     //Figure out where to put this thing, until then just call Grid.gridSpace or import or whatever
-    enum gridSpace{
+    public enum gridSpace{
         X, BLANK, O;
     }
 
@@ -16,6 +16,7 @@ public class Grid
     public boolean setTile(int x, int y, gridSpace gS) {
         if (x >= 0 && x <= 2 && y >= 0 && y <= 2) {
             gameBoard[x][y] = gS;
+            return true;
         }
         return false;
     }

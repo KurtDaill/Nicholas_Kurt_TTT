@@ -8,7 +8,7 @@ import android.os.Bundle;
 
 public class maingameplay : AppCompatActivity(){
 
-        gameengine UserInput = new gameengine();
+        gameengine UserInput = new gameEngine();
         }
 
 public static interface View.OnClickListener {
