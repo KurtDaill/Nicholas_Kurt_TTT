@@ -1,5 +1,8 @@
 package kdaill_ncasello.tttbeta;
 
+import java.lang.Object;
+import java.util.Scanner;
+
 /**
  * Created by nicholas on 9/22/18.
  */
